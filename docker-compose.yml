@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  postgresql:
+    image: "bitnami/postgresql:latest"
+    volumes:
+      - "./postgresql-persistence:/bitnami/postgresql"
+    ports:
+      - "54321:5432"
+    environment:
+      - POSTGRESQL_DATABASE=poc-db
+      - POSTGRESQL_USERNAME=poc
+      - POSTGRESQL_PASSWORD=poc
+    networks:
+      - "poc"
+  
+
+networks:
+  poc:
