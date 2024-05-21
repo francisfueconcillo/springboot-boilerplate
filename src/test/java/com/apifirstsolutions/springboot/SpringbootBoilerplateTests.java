@@ -1,10 +1,10 @@
-package com.apifirstsolutions.poc.springbootdb;
+package com.apifirstsolutions.springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootDbApplicationTests {
+class SpringbootBoilerplateTests {
 
 	@Test
 	void contextLoads() {

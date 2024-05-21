@@ -1,4 +1,4 @@
-package com.apifirstsolutions.poc.springbootdb.controllers;
+package com.apifirstsolutions.springboot.controllers;
 
 import java.util.List;
 
@@ -8,15 +8,15 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.apifirstsolutions.poc.springbootdb.services.Authentication;
+import com.apifirstsolutions.springboot.services.Authentication;
 
 @RestController
-public class LoginController {
+public class TestController {
 
   @Autowired
   private Authentication authService;
 
-  @GetMapping("/login")
+  @GetMapping("/test")
   public ResponseEntity<String> getAllBooks() {
       return new ResponseEntity<>("success", HttpStatus.OK);
   }

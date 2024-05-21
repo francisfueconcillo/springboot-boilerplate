@@ -1,10 +1,13 @@
-# Read Me First
-The following was discovered as part of building this project:
+# Springboot Boilerplate
+This repository contains a boilerplate for Springboot projects that uses common components like RBAC Security, Database CRUD, External API integrations, etc
 
-* The original package name 'com.apifirstsolutions.poc.springboot-db' is invalid and this project uses 'com.apifirstsolutions.poc.springbootdb' instead.
+## Features
+- PostgreSQL on Docker Compose
+- Spring Security with JWT
+- Cascading Filters for RBAC
+- Authorization Service
 
-# Getting Started
-
+## Springboot Guides
 ### Reference Documentation
 For further reference, please consider the following sections:
 

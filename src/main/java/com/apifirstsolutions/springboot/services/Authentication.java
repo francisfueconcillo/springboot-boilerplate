@@ -1,4 +1,4 @@
-package com.apifirstsolutions.poc.springbootdb.services;
+package com.apifirstsolutions.springboot.services;
 
 import org.springframework.stereotype.Service;
 

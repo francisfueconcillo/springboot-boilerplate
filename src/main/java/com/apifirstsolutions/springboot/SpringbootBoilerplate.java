@@ -1,13 +1,13 @@
-package com.apifirstsolutions.poc.springbootdb;
+package com.apifirstsolutions.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootDbApplication {
+public class SpringbootBoilerplate {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootDbApplication.class, args);
+		SpringApplication.run(SpringbootBoilerplate.class, args);
 	}
 
 }
