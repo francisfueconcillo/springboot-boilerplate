@@ -10,10 +10,11 @@ Here is a boilerplate for Springboot Projects, with all the basic features a Spr
 ## Features
 This boilerplate implements the following features:
 
-- Springboot 3.2.5 base
+- Springboot 3.2.5
 - Liquibase for database migrations
 - PostgreSQL as database (dockerized)
 - Cascading Springboot Filters
+- Lombok
 - _API Security with JWT for RBAC implementation (upcoming)_
 - _3rd Party API integration (upcoming)_
 - _Input Validation and Sanitization (upcoming)_
@@ -23,7 +24,7 @@ This boilerplate implements the following features:
 - _Unit Tests (upcoming)_
 - _ReactJS Ecommerce App (upcoming)_
 - _Reactive Implementation (upcoming)_
-- 
+- _Swagger (upcoming)_
 
 
 ## Springboot Guides
