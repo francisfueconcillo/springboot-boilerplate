@@ -1,5 +1,11 @@
 package com.apifirstsolutions.springboot.backoffice.models;
 
+import java.math.BigDecimal;
+import java.util.List;
+
+import com.apifirstsolutions.springboot.backoffice.dto.ProductDto;
+
+import jakarta.annotation.Nullable;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -24,12 +30,31 @@ public class Product {
   @Column(name = "name")
   private String name;
 
+  @Getter
+  @Setter
+  @Column(name = "description")
+  private String description;
+
+  @Getter
+  @Setter
+  @Column(name = "images")
+  @Nullable
+  private List<String> images;
+
+  @Getter
+  @Setter
+  @Column(name = "price")
+  private BigDecimal price;
+
   public Product() {
     // For persistence
   }
 
-  public Product(String name) {
-    this.name = name;
+  public Product(ProductDto product) {
+    this.name = product.getName();
+    this.description = product.getDescription();
+    this.images = product.getImages();
+    this.price = product.getPrice();
   }
 
 }

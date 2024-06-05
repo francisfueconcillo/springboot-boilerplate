@@ -1,11 +1,30 @@
 # Springboot Boilerplate
-This repository contains a boilerplate for Springboot projects that uses common components like RBAC Security, Database CRUD, External API integrations, etc
+
+Here is a boilerplate for Springboot Projects, with all the basic features a Springboot API can have. The API is for an e-commerce website with:
+- Frontend Store, 
+- Shopping Cart, 
+- Shopper Portal for customers
+- Back-office Portal for merchants
+
 
 ## Features
-- PostgreSQL on Docker Compose
-- Spring Security with JWT
-- Cascading Filters for RBAC
-- Authorization Service
+This boilerplate implements the following features:
+
+- Springboot 3.2.5 base
+- Liquibase for database migrations
+- PostgreSQL as database (dockerized)
+- Cascading Springboot Filters
+- _API Security with JWT for RBAC implementation (upcoming)_
+- _3rd Party API integration (upcoming)_
+- _Input Validation and Sanitization (upcoming)_
+- _Caching (upcoming)_
+- _Logs (upcoming)_
+- _Monitoring (upcoming)_
+- _Unit Tests (upcoming)_
+- _ReactJS Ecommerce App (upcoming)_
+- _Reactive Implementation (upcoming)_
+- 
+
 
 ## Springboot Guides
 ### Reference Documentation
