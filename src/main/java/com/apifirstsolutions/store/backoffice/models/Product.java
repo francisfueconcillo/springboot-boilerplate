@@ -12,37 +12,28 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 @Entity
 @Table(name = "products")
+@Data
 public class Product {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "id")
-  @Getter
   private Integer id;
 
-  @Getter
-  @Setter
   @Column(name = "name")
   private String name;
 
-  @Getter
-  @Setter
   @Column(name = "description")
   private String description;
 
-  @Getter
-  @Setter
   @Column(name = "images")
   @Nullable
   private List<String> images;
 
-  @Getter
-  @Setter
   @Column(name = "price")
   private BigDecimal price;
 

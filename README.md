@@ -15,17 +15,21 @@ This boilerplate implements the following features:
 - PostgreSQL as database (dockerized)
 - Cascading Springboot Filters
 - Lombok
-- _Error Handling with custom exceptions (upcoming)_
-- _Input Validation and Sanitization (upcoming)_
-- _3rd Party API integration w/ parallel requests supported (upcoming)_
-- _API Security with JWT for RBAC implementation (upcoming)_
-- _Caching (upcoming)_
-- _Logs (upcoming)_
-- _Monitoring (upcoming)_
-- _Unit Tests (upcoming)_
-- _Swagger (upcoming)_
-- _Front-end ReactJS E-commerce App (upcoming)_
-- _Reactive Implementation (upcoming)_
+- Error Handling using @RestControllerAdvice and @ExceptionHandler
+- Springboot Input Validation 
+
+#### Upcoming Features
+- _Common Response Body for all endpoints_
+- _Input Sanitization_
+- _3rd Party API integration w/ parallel requests supported_
+- _API Security with JWT for RBAC implementation_
+- _Caching_
+- _Logging_
+- _Monitoring_
+- _Unit Tests_
+- _Swagger_
+- _Front-end ReactJS E-commerce App_
+- _Reactive Implementation_
 
 
 
