@@ -1,4 +1,4 @@
-package com.apifirstsolutions.springboot.backoffice.dto;
+package com.apifirstsolutions.store.backoffice.dto;
 
 import java.math.BigDecimal;
 import java.util.List;

@@ -1,9 +1,9 @@
-package com.apifirstsolutions.springboot.backoffice.models;
+package com.apifirstsolutions.store.backoffice.models;
 
 import java.math.BigDecimal;
 import java.util.List;
 
-import com.apifirstsolutions.springboot.backoffice.dto.ProductDto;
+import com.apifirstsolutions.store.backoffice.dto.ProductDto;
 
 import jakarta.annotation.Nullable;
 import jakarta.persistence.Column;

@@ -8,7 +8,7 @@
   <version>3.2.5</version>
   <relativePath/> <!-- lookup parent from repository -->
  </parent>
- <groupId>com.apifirstsolutions.poc</groupId>
+ <groupId>com.apifirstsolutions.store</groupId>
  <artifactId>springboot-boilerplate</artifactId>
  <version>0.0.1-SNAPSHOT</version>
  <name>springboot-boilerplate</name>

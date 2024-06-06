@@ -1,4 +1,4 @@
-package com.apifirstsolutions.springboot;
+package com.apifirstsolutions.store;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -7,8 +7,8 @@ import org.springframework.context.annotation.Configuration;
 // import org.springframework.security.web.SecurityFilterChain;
 // import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.apifirstsolutions.springboot.filters.FirstCustomFilter;
-import com.apifirstsolutions.springboot.filters.SecondCustomFilter;
+import com.apifirstsolutions.store.filters.FirstCustomFilter;
+import com.apifirstsolutions.store.filters.SecondCustomFilter;
 
 @Configuration
 // @EnableWebSecurity

@@ -1,4 +1,4 @@
-package com.apifirstsolutions.springboot;
+package com.apifirstsolutions.store;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

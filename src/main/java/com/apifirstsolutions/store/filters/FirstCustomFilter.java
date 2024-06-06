@@ -1,4 +1,4 @@
-package com.apifirstsolutions.springboot.filters;
+package com.apifirstsolutions.store.filters;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.FilterConfig;
@@ -8,13 +8,13 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class SecondCustomFilter extends HttpFilter {
+public class FirstCustomFilter extends HttpFilter {
 
     @Override
     public void doFilter(HttpServletRequest request, HttpServletResponse response, FilterChain chain)
             throws IOException, ServletException {
-        // Add custom logic for the second filter
-        System.out.println("SecondCustomFilter is invoked");
+        // Add custom logic for the first filter
+        System.out.println("FirstCustomFilter is invoked");
         chain.doFilter(request, response);
     }
 }
